@@ -1,3 +1,4 @@
+#discord bot
 A simple discord bot for playing sounds in voice channels and displaying the pictures that the users search for,
 written in javascript, Node.js and discord.js
 
