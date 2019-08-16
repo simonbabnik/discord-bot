@@ -13,3 +13,5 @@ Dependencies needed to run it:
 
 To run it, open the index.js file and write    node .
 The code is well commented and easy to read and edit if you want.
+
+Make sure to change the "insert-your-token-here" to your discord bot token.
