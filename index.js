@@ -3,7 +3,7 @@ var cheerio = require("cheerio");
 var request = require("request");
 
 const client = new Discord.Client;
-const token = 'NjEwNTQzMjE1NTc3MjY4MzU4.XVG3OQ.th2fo7tmk7VlwhIT3SJB9pnRvII';
+const token = 'insert-your-token-here';
 
 
 //sets the bot status to "playing !help"
