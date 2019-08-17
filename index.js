@@ -50,7 +50,7 @@ client.on("message", function(message) {
         voiceChannel.join().then(connection =>
 
         {
-            const dispatcher = connection.playFile('./Sounds/nigger.wav');
+            const dispatcher = connection.playFile('./Sounds/n.wav');
 
             dispatcher.on("end", end => {
                 voiceChannel.leave();
