@@ -32,7 +32,7 @@ client.on("message", function(message) {
     //(replace with your own if you want)
     //if the message includes the word, the bot will trigger and join the channel (if the user is in it)
 
-    if (msg.includes("nigger") || msg.includes("nibba") || msg.includes("negro") || msg.includes("nigga")){
+    if (msg.includes("ded")){
 
         var voiceChannel = message.member.voiceChannel;
 
@@ -74,7 +74,7 @@ client.on("message", function(message) {
     var parts = message.content.split(" "); 
  
     // Simple command manager 
-    if (parts[0] === "nigger") { // Check if first part of message is ..
+    if (parts[0] === "ded") { // Check if first part of message is ..
  
         // call the image function
         image(message, parts); // Pass requester message to image function
@@ -135,7 +135,7 @@ function image(message, parts) {
 client.on("message", function(message) {
     if (message.content === "!help"){
 
-        message.channel.send("If your message includes one of the following:\n \nnibba\nnigga\nnegro\nnigger\n\nit will trigger the bot, make him join your voice channel and play a funny sound.\n \nUse \"nigger\" for a funny picture ;)\n\nYou can also add something after it (for example: nigger black)")
+        message.channel.send("If your message includes one of the following:\n \nded\n\nit will trigger the bot, make him join your voice channel and play a funny sound.\n \nUse \"ded\" for a funny picture ;)\n\nYou can also add something after it (for example: ded meme)")
 
     }});
 
